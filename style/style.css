@@ -1,0 +1,159 @@
+@font-face {
+  font-family: estedad;
+  src: url("../fonts/Estedad-VF.ttf");
+}
+html {
+  direction: rtl;
+}
+body {
+  font-family: estedad;
+}
+.navbar {
+  background: #00c67f;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.logo {
+  height: 30px;
+}
+.navbar-nav {
+  font-weight: bold;
+}
+.input-search {
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 20px;
+  color: #fff !important;
+}
+
+.input-search:focus {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  outline: none;
+}
+.input-search::placeholder {
+  color: #fff;
+}
+.btn-search {
+  background: #fff;
+  border-radius: 20px;
+  color: #00c67f;
+  width: 50px;
+  margin-right: -40px;
+}
+
+.btn-sign {
+  color: #fff;
+  font-size: 22px;
+  line-height: 0.8;
+}
+
+.btn-sign:hover {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.intro {
+  background-color: #cdffe6;
+  background-image: url(../img/intro-shape.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.intro-img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.intro-title {
+  color: #3f3d56;
+}
+
+.intro-details {
+  color: #605e7a;
+}
+
+.services .card figure {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  margin-top: -80px;
+  border-radius: 100%;
+  padding: 28px;
+}
+
+.services .card figure img {
+  width: 90%;
+}
+
+.book-list .nav-pills {
+  border-bottom: 1px solid #ddd;
+}
+
+.book-list .nav-pills .nav-link {
+  background: #f5f5f5;
+  border-radius: 5px 5px 0 0;
+  margin-left: 4px;
+}
+.book-list .nav-pills .nav-link.active {
+  background: #def0ff;
+  color: #1348da;
+  font-weight: bold;
+  border-bottom: 2px solid #1348da;
+}
+
+.book-item img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.book-item:hover img {
+  transform: scale(1.1) rotate(-4deg);
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.2);
+}
+
+.book-item {
+  transition: 0.3s;
+}
+
+.book-item:hover {
+  transform: translateY(-4px);
+}
+
+.input {
+  border: 2px solid #aaa;
+  background: #fff;
+  border-radius: 30px;
+  resize: none;
+}
+
+.input:focus {
+  border: 2px solid #1348da;
+  background: #dae4ff;
+  box-shadow: 0 5px 12px -4px #103ebd6e;
+}
+
+.contact {
+  background-image: url(../img/footer-shape.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.footer {
+  background: #239e72;
+}
+
+.social-link a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer .copyright {
+  background: #1b7958;
+  padding: 10px;
+  color: #fff;
+}
